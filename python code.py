@@ -16,12 +16,16 @@ class Student:
         Student.id_number = this.id_number
 
     def print_statement(this):
-        print(f' Name: {this.full_name} \n University: {this.University} \n Reg No: {this.registration_number}\n Student No: {this.student_No}\n ID No: {this.id_number} \n Total Students: {this.students}\n\n\n')
+        print(f' Name: {this.full_name} \n University: {this.University} \n 
+              f'Reg No: {this.registration_number}\n Student No: {this.student_No}\n 
+              f'ID No: {this.id_number} \n Total Students: {this.students}\n\n\n')
 
 class CEDAT_Student(Student):
-    college = 'CEDAT'   
+    college = 'CEDAT' 
     def print_statement(this):
-            print(f' Name: {this.full_name} \n University: {this.University} \n College: {this.college} \n Reg No: {this.registration_number}\n Student No: {this.student_No} \n ID No: {this.id_number} \n Total Students: {this.students} \n\n\n')
+            print(f' Name: {this.full_name} \n University: {this.University} \n 
+                  f'College: {this.college} \n Reg No: {this.registration_number}\n Student No: {this.student_No} \n 
+                  f'ID No: {this.id_number} \n Total Students: {this.students} \n\n\n')
 
 class CoCIS_Student(Student):
     college = 'CoCIS'   
